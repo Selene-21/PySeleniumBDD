@@ -20,7 +20,11 @@
 3. Realizar un "cd \Scripts"
 4. Realizar un "dir"
 5. Ejecutar el comando "\Activate.ps1"
-6. Ejecutar "cd.." tantas veces sea necesario para volver a la carpeta raiz del proyecto
+6. Ejecutar "cd.." tantas veces sea necesario para volver a la carpeta raíz del proyecto
+
+## Para Ejecución de los test
+
+1. Ejecutar el comando "python -m pytest -s -k "nombre del test"
 
 ## Como instalar paquetes de Python
 
@@ -33,3 +37,11 @@
 ## Como instalar un archivo requirements de otro repositorio
 
 1. Ejecutar el comando pip install -r requirements.txt
+
+## RECORDATORIOS IMPORTANTES
+
+1. Cada vez que se realiza un "pip install package", se debe ejecutar a posteriori un "pip freeze > requirements.txt".
+
+## Como realizar tu primer TEST
+
+1.
