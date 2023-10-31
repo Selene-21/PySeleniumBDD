@@ -5,6 +5,8 @@ from Pages.GralPazpages import gralpazhome
 #Scenarios
 scenarios('../Features/GralPaz.feature')
 
-@when(parsers.parse(''))
+@when(parsers.parse('realiza un click en "mail_address"'))
+def check_mail_address(browser, mail_address):
+    gralpaz_home = gralpazhome(browser)
+    assert gralpaz_home.get_mail_address().click() in mail_address
 
-@then(parsers.parse(''))

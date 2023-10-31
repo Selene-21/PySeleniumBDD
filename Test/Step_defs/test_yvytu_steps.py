@@ -8,4 +8,4 @@ scenarios('../Features/Yvytu.feature')
 @then(parsers.parse('el titulo principal es "{main_title}"'))
 def check_main_title(browser, main_title):
     yvytu_home = Yvytupage(browser)
-    assert yvytu_home.get_main_title().txt in main_title print("Se verifico el titulo"+main_title).text
+    assert yvytu_home.get_main_title().txt in main_title
