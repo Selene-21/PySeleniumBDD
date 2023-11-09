@@ -4,9 +4,7 @@ from selenium import webdriver
 
 #Constants
 YVYTU_HOME = "https://vientosdelaselva.com.ar/"
-CLARO_HOME = "http://tiendaclaro.com.ar/"
 EDEN_HOME = "http://edenentradas.com.ar/"
-ORBELY_HOME = "http://orbely.com.ar/"
 GRALPAZ_HOME = "https://www.farmaciageneralpaz.com/"
 
 #Fixtures
